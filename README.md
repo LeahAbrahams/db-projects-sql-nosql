@@ -1,31 +1,27 @@
 # Database Implementation Projects
-This repository contains two distinct database projects, each focusing on a different architecture and methodology.
+This repository contains two separate database projects, each focusing on a different architecture and methodology.
 
 ---
 
-## Project 1: Railway Management System (SQL)
-A relational database project developed and managed using **Microsoft SQL Server Management Studio (SSMS)**. The project manages the logistics and scheduling of a railway network.
+## Project 1: Train Management System (SQL)
+A relational database project developed and managed using **Microsoft SQL Server Management Studio (SSMS)**. The project manages the logistics and scheduling of a train network.
 
 ### Key Features
-* **Schema Design:** Relational model implementation for trains, stations, and routes.
-* **T-SQL Implementation:** DDL scripts for table structures and DML for data population.
-* **Querying:** Utilizing Multi-table Joins and Aggregations to retrieve schedule and route information.
-* **Data Integrity:** Enforcement of Referential Integrity through Primary and Foreign Keys.
+* **Schema Design:** Implementing a relational model for trains, stations, and routes.
+* **Queries:** Using multi-table joins and aggregations to retrieve information about schedules and routes.
+* **Data Integrity:** Enforcing referential integrity using primary and foreign keys.
 
 ### Tech Stack
 * **RDBMS:** Microsoft SQL Server (SSMS)
-* **Language:** T-SQL
-
 ---
 
-## Project 2: Store Management (NoSQL)
-A data-modeling project implemented using **MongoDB**, focused on managing a store's inventory and customer orders.
+## Project 2: Class Management (NoSQL)
+A data modeling project implemented using **MongoDB**, focusing on managing a set of classes and students.
 
 ### Key Features
-* **Document Modeling:** Designing collections for products and customers using a NoSQL approach.
-* **Data Operations:** Implementation of data insertion and advanced search/filtering queries.
-* **JSON/BSON Structure:** Managing semi-structured data with flexible schemas.
-* **Aggregation:** Basic usage of MongoDB's filtering and grouping capabilities.
+* **Document Modeling:** Designing collections for classes and staff using a NoSQL approach.
+* **Data Operations:** Implementing data insertion and advanced search/filter queries.
+* **Aggregate:** Basic use of MongoDB's filtering and grouping capabilities.
 
 ### Tech Stack
 * **Database:** MongoDB
@@ -34,8 +30,8 @@ A data-modeling project implemented using **MongoDB**, focused on managing a sto
 ---
 
 ## Directory Structure
-* `/SQL-SSMS`: SQL scripts, schema definitions, and railway-related query files.
-* `/NoSQL-MongoDB`: Collection exports, JSON data, and query scripts for the Store system.
-## How to Run
-1. **SQL:** Execute the `.sql` scripts within **SQL Server Management Studio**.
-2. **NoSQL:** Import the JSON/BSON files into a **MongoDB** instance or run the scripts via the MongoDB shell.
+* `/SQL-SSMS`: SQL scripts, schema definitions, and query files related to trains.
+* `/NoSQL-MongoDB`: Screenshots are divided by topic
+## How to run
+1. **SQL:** The `.sql` scripts must be run within **SQL Server Management Studio**.
+2. **NoSQL:** Screenshots
