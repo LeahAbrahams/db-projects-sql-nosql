@@ -24,4 +24,4 @@ Focuses on the overall management of the extracurricular ecosystem, ensuring dat
 * `/NoSQL-MongoDB`: Project screenshots organized by topic.
 
 ---
-**Submitted as a final project as part of SQL studies - Year 2025.**
+**Submitted as a final project as part of NoSQL studies - Year 2025.**
