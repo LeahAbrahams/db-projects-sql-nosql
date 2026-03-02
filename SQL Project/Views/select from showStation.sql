@@ -1,2 +1,0 @@
-select stationName
-from showStation 
